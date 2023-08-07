@@ -1,0 +1,95 @@
+* {
+    font: 1.08em bold Arial,sans-serif;
+}
+
+.parent {
+    width: 800px;
+    padding: 0;
+    background-color: #9790907d;
+}
+
+.full,
+.half,
+.quarter,
+.third {
+    float: right;
+    background-color: #eeeeee;
+    height: 2em;
+    margin: 15px 15px 15px 0;
+    padding-top: 15px;
+    text-align: center;
+}
+/*
+content height is : 100%
+we need to make 5 spaces: 5 * 15px = 75px
+so we have 100% - 75px is an available space
+so the width of the elemant is: ( 100% - 75px ) / 4 element
+*/
+
+/*
+content width is : 100%
+we need to make 2 spaces: 2 * 15px = 30px
+so we have 100% - 30px is an available space
+so the width of the elemant is: ( 100% - 30px ) / 1 element
+*/
+.full {
+    width: calc(( 100% - 30px ) / 1);
+}
+
+/*
+content width is : 100%
+we need to make 4 spaces: 4 * 15px = 60px
+so we have 100% - 60px is an available space
+so the width of the 3 elemants are: ( 100% - 60px ) / 3 element
+*/
+.third {
+    width: calc(( 100% - 60px ) / 3);
+}
+
+.clear {
+    clear: both;
+}
+
+/*
+content width is : 100%
+we need to make 3 spaces: 3 * 15px = 45px
+so we have 100% - 45px is an available space
+so the width of the 2 elemants are: ( 100% - 45px ) / 2 element
+*/
+.half {
+    width: calc(( 100% - 45px ) / 2);
+}
+
+/*
+content width is : 100%
+we need to make 5 spaces: 5 * 15px = 75px
+so we have 100% - 75px is an available space
+so the width of the 3 elemants are: ( 100% - 75px ) / 4 element
+*/
+.quarter {
+    width: calc(( 100% - 75px ) / 4);
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.normal,
+.one,
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: gray;
+    color: black;
+}
+
+.one {
+    background-color: rgba(128, 128, 128 ,0.2);
+}
+
+.two {
+    opacity: 0.2;
+}

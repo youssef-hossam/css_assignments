@@ -1,0 +1,15 @@
+p {
+    counter-increment: count-it;
+    font: 1.4em Arial,sans-serif;
+    background-color: #eee;
+    padding: 20px;
+    position: relative;
+}
+
+p::before {
+    content: counter(count-it);
+    background: orange;
+    color: white;
+    position: absolute;
+    left: 0;
+}

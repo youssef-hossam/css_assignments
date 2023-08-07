@@ -1,0 +1,30 @@
+.parent .child .title {
+    color: red;
+}
+
+.parent .title {
+    color: blue;
+}
+
+p,
+.title {
+    color: rgb(5, 249, 5);
+}
+
+hr {
+    margin:3em 0;
+}
+
+.parent2 div {
+    width: fit-content;
+    background-color: brown;
+    color: white;
+    margin: 1.5em;
+    padding: 1.5em;
+}
+
+.parent2 .overflow {
+    color: black;
+    max-height: 50px;
+    overflow: hidden;
+}

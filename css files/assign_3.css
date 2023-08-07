@@ -1,0 +1,77 @@
+.parent-1 {
+    margin: 2em;
+}
+
+/*
+
+  Block
+
+  - Take Full Width If No Width
+  - Add Line Break
+  - Respect Padding, Margin, Width, Height
+
+  Inline
+
+  - Do Not Repsepct Width, Height
+  - Respect Padding And Margin [ Just Wight + Left ]
+  - Do Not Add Line Break
+  - Allow Elements Before And After It in The Same Line
+
+  Inline-Block
+
+  - Allow Elements Before And After It in The Same Line
+  - Respect Padding, Margin, Width, Height
+
+*/
+
+.one-1,
+.two-1,
+.three-1 {
+    display: inline;
+    background-color: #eee;
+    outline: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.one-1 {
+    border: 5px solid red ;
+}
+
+.two-1 {
+    border: 5px solid;
+    border-color: blue green;
+}
+
+.three-1 {
+    border: 5px;
+    border-style: dashed;
+    border-color: red green blue yellow;
+}
+
+.parent-2 {
+    /* background-color: #eee; */
+    padding: 1.2em;
+}
+
+.one-2, 
+.two-2,
+.three-2 {
+    background-color: #eee; 
+    border-left: 5px solid;
+    margin: 10px;
+    padding: 10px;
+    height: 1.5em;
+}
+
+.one-2 {
+    border-color: #f44236;
+}
+
+.two-2 {
+    visibility: hidden;
+}
+
+.three-2 {
+    border-color: #009788 ;
+}

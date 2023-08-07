@@ -1,0 +1,61 @@
+.uniqe {
+    font: 3em Arial,sans-serif;
+    text-shadow: 3px 1px 0px #ba5866, 5px 1px 0 #337fe8;
+    letter-spacing: 2px;
+}
+
+hr {
+    margin: 5px 0;
+}
+
+.one,
+.two,
+.three {
+    font: 3em Arial,sans-serif;
+    margin: 5px;
+}
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+}
+
+.one-1,
+.two-2,
+.three-3 {
+    margin: 8px;
+    padding: 8px;
+    background-color: #EEE;
+    line-height: 1.6;
+    width: 400px;
+}
+
+.one-1 {
+    word-break: break-word;
+}
+
+.three-3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a {
+    font: bold 3em Arial,sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    background: #009788;
+    display: inline-block;
+    width: 7em;
+    height: 2em;
+    text-align: center;
+    padding-top: 40px;
+    border-bottom: 20px solid #00514a;
+}

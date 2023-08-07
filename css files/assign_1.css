@@ -1,0 +1,52 @@
+/* 
+Good
+._user-name {
+}
+
+Bad
+.-user-name {
+}
+
+Bad
+.1user-name {
+}
+
+Bad
+.@user-name {
+}
+
+Good
+.user@name {
+}
+
+Good
+._user10name {
+}
+
+Good
+.u {
+}
+
+*/
+
+/* 
+Bad
+.USERNAME {
+}
+
+Bad
+.UserName {
+}
+
+Good
+.user-name {
+}
+
+Bad
+.userName {
+}
+
+Bad
+.usernameprofile {
+}
+*/
