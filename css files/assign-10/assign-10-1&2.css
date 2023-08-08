@@ -1,0 +1,50 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #EEE;
+    border: 3px solid black;
+    display: inline-block;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    counter-increment: count-it;
+    box-shadow: -6px -6px 0px palevioletred, 6px 6px 0 #03a9f5;
+}
+
+div::before {
+    content: "Element";
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+div::after {
+    content: counter(count-it);
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 38%;
+    top: -10px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+p {
+    width: 150px;
+    height: 150px;
+    background-color: #EEE;
+    box-shadow: inset 0px 0px 15px 4px #00000070;
+    margin: auto;
+    border-top-left-radius: 20px 50px;
+    border-bottom-right-radius: 20px 50px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
