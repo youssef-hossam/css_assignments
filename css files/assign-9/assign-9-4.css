@@ -1,9 +1,12 @@
 p {
     counter-increment: count-it;
     font: 1.4em Arial,sans-serif;
-    background-color: #eee;
-    padding: 20px;
+    background-color: #e7e2e2;
+    padding: 20px 50px 20px 15px;
     position: relative;
+    width: fit-content;
+    margin: 15px auto;
+    border-right: 6px solid orange;;
 }
 
 p::before {
@@ -11,5 +14,9 @@ p::before {
     background: orange;
     color: white;
     position: absolute;
-    left: 0;
+    text-align: center;
+    width: 16.5px;
+    padding: 20px;
+    margin-top: -20px;
+    left: -50px;
 }

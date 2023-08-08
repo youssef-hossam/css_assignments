@@ -1,0 +1,30 @@
+p::before {
+    content: attr(data-person);
+    position: absolute;
+    background: #3f3b3b;
+    color: white;
+    padding: 10px;
+    margin-left: -7em;
+    margin-top: -8px;
+}
+
+p {
+    background: #eee;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 20px;
+    border-left: 5px solid;
+    position: relative;
+}
+
+p::after {
+    position: absolute;
+    content: "";
+    left: -24px;
+    color: white;
+    /* width: 5px; */
+    /* height: 5px; */
+    /* background-color: #e50a0a; */
+    border: 10px solid;
+    border-color: transparent black transparent transparent;
+}
